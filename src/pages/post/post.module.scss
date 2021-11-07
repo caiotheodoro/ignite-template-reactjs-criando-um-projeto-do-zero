@@ -1,1 +1,26 @@
 // TODO
+
+.banner {
+  width: 100%;
+}
+
+.content {
+  h2 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  div {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-subtitle);
+    margin-bottom: 1.125rem;
+    font-size: 1.125rem;
+    line-height: 1.575rem;
+
+    &:last-child {
+        margin-bottom: 0;
+      }
+
+      
+  }
+}

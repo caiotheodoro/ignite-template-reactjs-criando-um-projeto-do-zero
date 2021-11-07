@@ -5,7 +5,9 @@ export function Header() {
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <img src="/logo.svg" alt="logo" />
+                <Link href='/'>
+                <img src='/images/logo.svg' alt='logo' />
+                </Link>
             </div>
         </header>
     );

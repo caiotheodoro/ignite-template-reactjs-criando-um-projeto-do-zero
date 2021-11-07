@@ -42,25 +42,7 @@
         }
     }
 
-    .info {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-direction: row;
-        font-size: 0.875rem;
-        margin-top: 1.5rem;
-        color: var(--color-info);
 
-        time {
-            font-size: 0.875rem;
-            margin-right: 1.25rem;
-            margin-left: 0.5rem;
-        }
-        p {
-            margin-left: 0.5rem;
-        }
-
-    }
 
     .buttonLoad {
         padding-top: 4rem;
